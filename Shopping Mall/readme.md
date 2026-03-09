@@ -1,4 +1,4 @@
-##  🛍️ Shopping Mall Sales Dashboard
+##  🛍️Shopping Mall Sales Dashboard
 
 This workbook providing an interactive sales performance dashboard for shopping mall retail data, with year-over-year KPI tracking, subcategory analysis, and weekly trend visualization.
 
@@ -77,3 +77,6 @@ A **Customer Dashboard** navigation icon is also present, suggesting this workbo
 -  **Dashboard navigation** — Icons at the top link to the Sales Dashboard and Customer Dashboard views.
 
 ---
+
+* `Sales Dashboard` ![alt text](https://github.com/deepakshradha/Tableau/blob/main/Shopping%20Mall/tableau.PNG
+)
