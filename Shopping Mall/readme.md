@@ -1,17 +1,17 @@
-## Shopping Mall Sales Dashboard
+##  🛍️ Shopping Mall Sales Dashboard
 
 This workbook providing an interactive sales performance dashboard for shopping mall retail data, with year-over-year KPI tracking, subcategory analysis, and weekly trend visualization.
 
 ---
 
-## Requirements
+## ⚙️ Requirements
 
 - **Tableau Desktop** or **Tableau Public** (version 2025.2 or compatible)
 - No external database connection required — data is embedded via a `.hyper` extract
   
 ---
 
-## Data Sources
+##  🗄️ Data Sources
 
 The workbook is built on four CSV files, joined into a single `Sales DataSource`:
 
@@ -22,22 +22,22 @@ The workbook is built on four CSV files, joined into a single `Sales DataSource`
 | `Location.csv` | Postal Code, City, State, Region, Country/Region |
 | `Products.csv` | Product ID, Category, Sub-Category, Product Name |
 
-> **Note:** The original source files were located at a local Windows path. The packaged workbook includes an embedded `.hyper` extract, so no reconnection to the original CSVs is needed.
+> 📌 **Note:** The original source files were located at a local Windows path. The packaged workbook includes an embedded `.hyper` extract, so no reconnection to the original CSVs is needed.
 
 ---
 
-## Parameters
+## 🎛️  Parameters
 
 | Parameter | Type | Options | Default |
 |-----------|------|---------|---------|
-| Select Year | Integer | 2020, 2021, 2022, 2023 | 2021 |
+| 📅  Select Year | Integer | 2020, 2021, 2022, 2023 | 2021 |
 
 Use the **Select Year** parameter to switch the dashboard between fiscal years. All KPIs automatically compare the selected year against the previous year.
 
 ---
 
 
-### Sales Dashboard
+###  🏪 Sales Dashboard
 
 The main dashboard view, composed of the following sheets:
 
@@ -55,7 +55,7 @@ A **Customer Dashboard** navigation icon is also present, suggesting this workbo
 
 ---
 
-## Key Calculated Fields
+##  🏪 Key Calculated Fields
 
 | Field | Description |
 |-------|-------------|
@@ -68,3 +68,12 @@ A **Customer Dashboard** navigation icon is also present, suggesting this workbo
 
 ---
 
+## 🖱️ Interactivity
+
+-  **Year selector** — Use the `Select Year` parameter control to switch between 2020–2023.
+-  **Sub-category filter** — Clicking a bar in the *Sales and Profit by subcategory* chart filters the entire dashboard.
+-  **Weekly trend filter** — Clicking a point in the *Weekly Trends* chart filters the entire dashboard.
+-  **Filter panel toggle** — Icons in the navigation bar allow showing or hiding the filter panel.
+-  **Dashboard navigation** — Icons at the top link to the Sales Dashboard and Customer Dashboard views.
+
+---
