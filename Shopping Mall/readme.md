@@ -78,5 +78,5 @@ A **Customer Dashboard** navigation icon is also present, suggesting this workbo
 
 ---
 
-* `Sales Dashboard` ![alt text](https://github.com/deepakshradha/Tableau/blob/main/Shopping%20Mall/tableau.PNG
+* `Sales Dashboard` ![alt text](https://github.com/deepakshradha/Tableau/blob/main/Shopping%20Mall/sales%20dashboard.PNG
 )
